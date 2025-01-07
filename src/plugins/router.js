@@ -2,12 +2,12 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
 	{
-		path: '/',
+		path: '/ai-ux-test',
 		name: 'home',
 		component: () => import('@/pages/Home.vue')
 	},
 	{
-		path: '/order',
+		path: '/ai-ux-test/order',
 		name: 'order',
 		component: () => import('@/pages/Order.vue')
 	}
@@ -16,6 +16,7 @@ const routes = [
 
 const router = createRouter({
 	history: createWebHistory(),
+	base: '/ai-ux-test/',
 	routes
 });
 
