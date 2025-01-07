@@ -1,15 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router';
+import Order from '@/pages/Order.vue';
+import Home from '@/pages/Home.vue';
 
 const routes = [
 	{
 		path: '/ai-ux-test',
 		name: 'home',
-		component: () => import('@/pages/Home.vue')
+		component: Home
 	},
 	{
 		path: '/ai-ux-test/order',
 		name: 'order',
-		component: () => import('@/pages/Order.vue')
+		component: Order
 	}
 	// Add more routes here...
 ];
