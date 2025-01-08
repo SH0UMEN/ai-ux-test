@@ -26,7 +26,6 @@ export default defineConfig({
 			}
 		})
 	],
-	base: "/ai-ux-test/",
 	define: { 'process.env': {} },
 	resolve: {
 		alias: {

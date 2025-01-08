@@ -4,12 +4,12 @@ import Home from '@/pages/Home.vue';
 
 const routes = [
 	{
-		path: '/ai-ux-test',
+		path: '/',
 		name: 'home',
 		component: Home
 	},
 	{
-		path: '/ai-ux-test/order',
+		path: '/order',
 		name: 'order',
 		component: Order
 	}
@@ -18,7 +18,6 @@ const routes = [
 
 const router = createRouter({
 	history: createWebHistory(),
-	base: '/ai-ux-test/',
 	routes
 });
 

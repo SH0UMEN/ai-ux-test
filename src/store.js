@@ -42,56 +42,56 @@ export const useStore = defineStore('products', {
 				id: '814C1831-28FD-49D2-86C3-FF50D7004910',
 				name: 'Пицца "Маргарита"',
 				description: 'Состав - тесто, сыр моцарелла, томатный соус, базилик',
-				image: '/ai-ux-test/ritapizza.png',
+				image: '/ritapizza.png',
 				price: 1000
 			},
 			{
 				id: '0F530E92-66F5-40BB-887A-56A7A7C5C8C1',
 				name: 'Пицца "Пепперони"',
 				description: 'Состав - тесто, сыр моцарелла, томатный соус, салями пепперони',
-				image: '/ai-ux-test/peppepizza.jpg',
+				image: '/peppepizza.jpg',
 				price: 1200
 			},
 			{
 				id: 'E1503516-318F-47F6-84A2-D730FFEFDB4E',
 				name: 'Роллы "Филадельфия"',
 				description: 'Состав - рис, водоросли нори, лосось, сыр филадельфия, огурец или авокадо',
-				image: '/ai-ux-test/philarolls.jpeg',
+				image: '/philarolls.jpeg',
 				price: 500
 			},
 			{
 				id: '93044B07-6FD7-4EB4-8349-5F094DE5DEA8',
 				name: 'Роллы "Калифорния"',
 				description: 'Состав - рис, водоросли нори, лосось, сыр филадельфия, авокадо, икра тобико',
-				image: '/ai-ux-test/calirolls.jpg',
+				image: '/calirolls.jpg',
 				price: 400
 			},
 			{
 				id: '39A2C18D-BCF1-464A-9BD5-F03C76122076',
 				name: 'Роллы "Маки" с лососем',
 				description: 'Состав - рис, водоросли нори, лосось',
-				image: '/ai-ux-test/makirolls.webp',
+				image: '/makirolls.webp',
 				price: 300
 			},
 			{
 				id: '31A50353-98F1-4C50-8C9D-1EA1E8E1E499',
 				name: 'Шаверма',
 				description: 'Состав - лаваш, жаренная куриная грудка, салат, кефирно-чесночный соус',
-				image: '/ai-ux-test/shava.jpg',
+				image: '/shava.jpg',
 				price: 200
 			},
 			{
 				id: '947B20BA-F9A3-4BE5-9F23-12F9F7993996',
 				name: 'Котлета по-киевски',
 				description: 'Состав - куриное филе, сливочное масло, укроп, чеснок, панированные сухари, яйцо, мука',
-				image: '/ai-ux-test/kievankotlete.jpg',
+				image: '/kievankotlete.jpg',
 				price: 60
 			},
 			{
 				id: '1779C78E-7BF7-4341-8B71-10B3E5B9485E',
 				name: 'Хот-дог',
 				description: 'Состав - мягкая булочка, сосиска домашняя, маринованный лук, горчица, кетчуп',
-				image: '/ai-ux-test/hotdogs.webp',
+				image: '/hotdogs.webp',
 				price: 100
 			}
 		]
